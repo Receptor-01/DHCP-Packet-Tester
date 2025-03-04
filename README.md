@@ -1,6 +1,8 @@
 
 # DHCP (IPV4) Flooding Tool
 
+![alt text](digital-flood.jpg)
+
 ## Overview
 
 This is a DHCP flooding tool that generates and sends DHCP Discover packets at a high rate to test IPv4 network response and DHCP server behavior. This tool lets you analyze how their network handles large volumes of DHCP requests.
