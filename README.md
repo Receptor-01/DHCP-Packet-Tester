@@ -19,7 +19,7 @@ This is a DHCP flooding tool that generates and sends DHCP Discover packets at a
 - Graceful Shutdown: Stops execution cleanly upon user input.
 
 
-## How It Works
+### How It Works
 
 The script initializes a pool of DHCP Discover packets.
 
@@ -34,7 +34,7 @@ Network Testing & Usage Scenarios
 Ensure your network allows broadcast traffic. Some routers and firewalls block broadcast packets by default.
 
 
-## Use Cases:
+### Use Cases:
 
 Stress testing DHCP servers: You can evaluate how well a DHCP server handles large-scale DHCP requests.
 
@@ -43,7 +43,7 @@ Network monitoring: Detect network bottlenecks or limitations.
 Security auditing: Detect DHCP starvation vulnerabilities and rogue DHCP servers.
 
 
-## Disclaimer
+### Disclaimer
 This tool was created for research and educational purposes only 😎
 
 Feel free to contribute
