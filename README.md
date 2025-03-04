@@ -19,56 +19,6 @@ This is a DHCP flooding tool that generates and sends DHCP Discover packets at a
 - Graceful Shutdown: Stops execution cleanly upon user input.
 
 
-## Requirements
-
-- Operating System
-
-- Linux (Tested on Ubuntu, Debian, and Kali Linux)
-
-- macOS
-
-
-## Dependencies
-
-Ensure you have the following installed before running the script:
-
-- GCC/G++ Compiler (for compiling C++ code)
-
-- Make (optional, for managing builds)
-
-
-## Installation & Usage
-
-### Step 1: Clone the Repository
-
-git clone https://github.com/your-username/DHCP-Flooder.git
-cd DHCP-Flooder
-
-### Step 2: Compile the Code
-
-Use the g++ compiler to compile the C++ source code:
-
-g++ -o dhcp_flood dhcp_flood.cpp -lpthread
-
-### Step 3: Run the DHCP Flooder
-
-To execute the script, use:
-
-sudo ./dhcp_flood
-
-Note: This script requires sudo because it uses raw sockets and sends broadcast packets.
-
-### Step 4: Monitor Performance
-
-Once the script starts running, it will display real-time performance statistics:
-
-Packets sent: 100000, Rate: 5000.00 pps, Avg: 4800.00 pps
-Packets sent: 200000, Rate: 5100.00 pps, Avg: 4950.00 pps
-
-Press Enter to stop the execution gracefully.
-
-
-
 ## How It Works
 
 The script initializes a pool of DHCP Discover packets.
